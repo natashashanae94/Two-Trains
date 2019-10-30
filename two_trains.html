@@ -1,0 +1,39 @@
+<!--Natasha Johnson
+  CTP 130-840
+  Lab #6-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Two Trains</title>
+  </head>
+  <body>
+    <!--PURPOSE: this html file contains the initial form.  This initial form has no value, yet.
+        when the user types in a value, the html form sends the value to the php file to be validated.-->
+    <!--STICKY FORM-->
+    <form id="myForm" method="POST" action="/two_trains.php">
+      <table>
+        <tr>
+          <th><h1>Two Trains</h1></th>
+        </tr>
+        <tr>
+          <td>Speed of Train A:</td>
+          <td><input type="text" id="trainA" name="trainA"> mph</td>
+        </tr>
+        <tr>
+          <td>Speed of Train B:</td>
+          <td><input type="text" id="trainB" name="trainB"> mph</td>
+        </tr>
+        <tr>
+          <td>Distance between trains:</td>
+          <td><input type="text" id="distance" name="distance"> miles</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="reset" name="reset" value="Clear Form">
+            <input type="submit" name="submit" value="Send Form">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
